@@ -1,0 +1,2 @@
+# summalize_qiita_trends
+Qiitaのトレンドを取得して記事の要約を行う.
