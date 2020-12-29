@@ -4,6 +4,16 @@ Qiitaのトレンドを取得して記事の要約を行う。
 
 Qiitaの1日のトレンドをPythonのライブラリBeautifulSoupでスクレイピングしてきて、タイトルとURL、タグと本文の要約を[summalize_text.md](summalize_text.md)に吐き出します。
 
+## 動かし方
+依存ライブラリダウンロード
+```
+pip install -r requirements.txt
+```
+実行
+```
+python main.py
+```
+
 ## Mecab(形態素解析)
 要約するために、まずMecabというライブラリを用いて形態素解析を行います。Mecabの導入は、下記コマンドで行い、
 ```
